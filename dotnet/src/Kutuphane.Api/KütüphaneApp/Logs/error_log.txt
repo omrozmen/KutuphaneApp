@@ -1,0 +1,654 @@
+25.12.2025 14:51:58: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:00: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:10: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:10: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:32: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:32: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:52:45: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:53:45: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+25.12.2025 14:53:45: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): SQLite Error 1: 'no such column: b.BookNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.FindAllAsync(CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 107
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 95
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateDefaultExcelFile(String filePath, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1199
+
+16.12.2025 15:16:36: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:36: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:37: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:37: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:50: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:50: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:50: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:16:50: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:17:50: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:17:50: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:17:51: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:17:51: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:18:51: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:18:51: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:18:51: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:18:51: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:19:17: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:19:17: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:19:17: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:20:18: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:20:18: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:20:18: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:21:54: Dosya oluşturma hatası (KütüphaneApp/Kütüphane Verileri.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:21:54: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+
+16.12.2025 15:21:54: Dosya oluşturma hatası (/Users/evhesap/Desktop/KütüphaneApp/salih/16-12-2025/kitap listesi.xlsx): The LINQ expression 'DbSet<BookEntity>()
+    .Where(b => DatabaseBookRepository.NormalizeTurkishText(b.Title).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Author).Contains(__normalizedKeyword_0) || DatabaseBookRepository.NormalizeTurkishText(b.Category ?? "").Contains(__normalizedKeyword_0))' could not be translated. Additional information: Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information.
+Translation of method 'Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.NormalizeTurkishText' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Kutuphane.Infrastructure.Database.Repositories.DatabaseBookRepository.SearchAsync(String keyword, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Infrastructure.Database/Repositories/DatabaseBookRepository.cs:line 141
+   at Kutuphane.Core.Application.BookCatalog.BookCatalogService.SearchAsync(String keyword, String category, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Core/Application/BookCatalog/BookCatalogService.cs:line 99
+   at Kutuphane.Api.Controllers.RecordTypesController.CreateMultiSheetExcelFile(String filePath, List`1 dataTypes, CancellationToken cancellationToken) in /Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity/dotnet/src/Kutuphane.Api/Controllers/RecordTypesController.cs:line 1321
+

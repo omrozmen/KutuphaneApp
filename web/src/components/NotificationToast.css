@@ -1,0 +1,139 @@
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  transition: all 0.3s ease;
+}
+
+.notification-container.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.notification-container.hidden {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.notification-toast {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border-left: 4px solid #3b82f6;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.notification-toast.notification-success {
+  border-left-color: #10b981;
+}
+
+.notification-toast.notification-warning {
+  border-left-color: #f59e0b;
+}
+
+.notification-toast.notification-error {
+  border-left-color: #ef4444;
+}
+
+.notification-toast.notification-info {
+  border-left-color: #3b82f6;
+}
+
+.notification-content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.notification-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.notification-toast.notification-success .notification-icon {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.notification-toast.notification-warning .notification-icon {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.notification-toast.notification-error .notification-icon {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.notification-toast.notification-info .notification-icon {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.notification-text {
+  flex: 1;
+}
+
+.notification-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.notification-message {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.notification-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.2s;
+}
+
+.notification-close:hover {
+  color: #64748b;
+}
+
+
+

@@ -1,0 +1,4 @@
+{
+  "MaxBorrowLimit": 5,
+  "MaxPenaltyPoints": 1000000
+}

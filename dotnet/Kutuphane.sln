@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Core", "src/Kutuphane.Core/Kutuphane.Core.csproj", "{177868A6-864C-4F14-9583-5F64CEE83F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Infrastructure.Files", "src/Kutuphane.Infrastructure.Files/Kutuphane.Infrastructure.Files.csproj", "{41C1DFFD-0FB3-4555-97F1-6F8F35F2D92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Infrastructure.External", "src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj", "{C8D9E1F2-3A4B-5C6D-7E8F-9A0B1C2D3E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Api", "src/Kutuphane.Api/Kutuphane.Api.csproj", "{B730A56B-7A9B-4A09-9B91-327C79B4E7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutuphane.Infrastructure.Database", "src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj", "{D1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177868A6-864C-4F14-9583-5F64CEE83F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177868A6-864C-4F14-9583-5F64CEE83F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177868A6-864C-4F14-9583-5F64CEE83F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177868A6-864C-4F14-9583-5F64CEE83F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C1DFFD-0FB3-4555-97F1-6F8F35F2D92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C1DFFD-0FB3-4555-97F1-6F8F35F2D92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C1DFFD-0FB3-4555-97F1-6F8F35F2D92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C1DFFD-0FB3-4555-97F1-6F8F35F2D92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D9E1F2-3A4B-5C6D-7E8F-9A0B1C2D3E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D9E1F2-3A4B-5C6D-7E8F-9A0B1C2D3E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D9E1F2-3A4B-5C6D-7E8F-9A0B1C2D3E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D9E1F2-3A4B-5C6D-7E8F-9A0B1C2D3E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B730A56B-7A9B-4A09-9B91-327C79B4E7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B730A56B-7A9B-4A09-9B91-327C79B4E7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B730A56B-7A9B-4A09-9B91-327C79B4E7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B730A56B-7A9B-4A09-9B91-327C79B4E7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

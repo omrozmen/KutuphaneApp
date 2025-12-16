@@ -1,0 +1,77 @@
+{
+  "userSettings": {
+    "ogrenci1": {
+      "username": "ogrenci1",
+      "recordPaths": [
+        {
+          "id": "default",
+          "name": "T\u00FCm Kay\u0131tlar",
+          "type": "all",
+          "fileType": "csv",
+          "filePath": "Masa\u00FCst\u00FC/K\u00FCt\u00FCphaneApp/K\u00FCt\u00FCphane_Verileri.csv",
+          "locked": true,
+          "autoSave": true,
+          "saveMode": "overwrite",
+          "dataTypes": [
+            "kitap_listesi",
+            "ogrenci_listesi",
+            "personel_listesi",
+            "istatistikler",
+            "baglantilar"
+          ]
+        },
+        {
+          "id": "1765022872618",
+          "name": "2025-12-06_ozel_kayit",
+          "type": "custom",
+          "fileType": "xlsx",
+          "filePath": "Masa\u00FCst\u00FC/K\u00FCt\u00FCphaneApp/ogrenci1/2025-12-06",
+          "locked": false,
+          "autoSave": true,
+          "saveMode": "current",
+          "dataTypes": [
+            "kitap_listesi",
+            "odunc_listesi"
+          ]
+        }
+      ]
+    },
+    "ogrenci3": {
+      "username": "ogrenci3",
+      "recordPaths": [
+        {
+          "id": "default",
+          "name": "T\u00FCm Kay\u0131tlar",
+          "type": "all",
+          "fileType": "csv",
+          "filePath": "Masa\u00FCst\u00FC/K\u00FCt\u00FCphaneApp/K\u00FCt\u00FCphane_Verileri.csv",
+          "locked": true,
+          "autoSave": true,
+          "saveMode": "overwrite",
+          "dataTypes": [
+            "kitap_listesi",
+            "ogrenci_listesi",
+            "personel_listesi",
+            "istatistikler",
+            "baglantilar"
+          ]
+        },
+        {
+          "id": "1765020692137",
+          "name": "2025-12-06_ozel_kayit",
+          "type": "custom",
+          "fileType": "csv",
+          "filePath": "Masa\u00FCst\u00FC/K\u00FCt\u00FCphaneApp/ogrenci3/2025-12-06",
+          "locked": false,
+          "autoSave": true,
+          "saveMode": "current",
+          "dataTypes": [
+            "kitap_listesi",
+            "odunc_listesi",
+            "personel_listesi"
+          ]
+        }
+      ]
+    }
+  }
+}

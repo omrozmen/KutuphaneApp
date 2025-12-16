@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kutuphane.Core\Kutuphane.Core.csproj" />
+    <ProjectReference Include="..\Kutuphane.Infrastructure.Database\Kutuphane.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\Kutuphane.Infrastructure.External\Kutuphane.Infrastructure.External.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="EPPlus" Version="7.0.0" />
+  </ItemGroup>
+</Project>

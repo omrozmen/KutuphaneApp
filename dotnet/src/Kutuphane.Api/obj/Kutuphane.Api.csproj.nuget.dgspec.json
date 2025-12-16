@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Api/Kutuphane.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Api/Kutuphane.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Api/Kutuphane.Api.csproj",
+        "projectName": "Kutuphane.Api",
+        "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Api/Kutuphane.Api.csproj",
+        "packagesPath": "/Users/evhesap/.nuget/packages/",
+        "outputPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/evhesap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj": {
+                "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj"
+              },
+              "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj": {
+                "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj"
+              },
+              "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj": {
+                "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj",
+        "projectName": "Kutuphane.Core",
+        "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj",
+        "packagesPath": "/Users/evhesap/.nuget/packages/",
+        "outputPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/evhesap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj",
+        "projectName": "Kutuphane.Infrastructure.Database",
+        "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/Kutuphane.Infrastructure.Database.csproj",
+        "packagesPath": "/Users/evhesap/.nuget/packages/",
+        "outputPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.Database/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/evhesap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj": {
+                "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Core/Kutuphane.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj",
+        "projectName": "Kutuphane.Infrastructure.External",
+        "projectPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/Kutuphane.Infrastructure.External.csproj",
+        "packagesPath": "/Users/evhesap/.nuget/packages/",
+        "outputPath": "/Users/evhesap/Desktop/Kutuphane_calisiyor_AsilCalisma_AntiGravity_Org/dotnet/src/Kutuphane.Infrastructure.External/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/evhesap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
